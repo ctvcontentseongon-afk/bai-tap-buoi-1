@@ -1,0 +1,140 @@
+===========================================================
+  LỊCH SỬ TRÒ CHUYỆN VỚI CLAUDE CODE
+  Khóa học Claude Code | SEONGON
+  Ngày: 11/05/2026
+  Email: ctvcontent.seongon@gmail.com
+===========================================================
+
+-----------------------------------------------------------
+[NGƯỜI DÙNG]
+-----------------------------------------------------------
+Tôi cần làm bài tập về nhà sau khi tham gia khóa học Claude
+Code, hãy giúp tôi xử lý bài tập sau nhé.
+
+ĐỀ BÀI: Xây dựng 1 web app bất kì:
+  - Có tính năng sử dụng được
+  - Có giao diện hoàn chỉnh
+  - Chưa cần phải hosting
+
+QUY TẮC:
+  Làm mọi cách để đạt được kết quả cuối cùng
+
+-----------------------------------------------------------
+[CLAUDE CODE]
+-----------------------------------------------------------
+Tôi sẽ xây dựng một web app "Quản lý Tài chính Cá nhân"
+hoàn chỉnh - có dashboard, biểu đồ, CRUD giao dịch, theo dõi
+ngân sách, và lưu dữ liệu bằng localStorage.
+
+→ Kiểm tra thư mục làm việc: /Users/thunga/Desktop/Bài tập Claude
+→ Tạo file: index.html (45KB)
+→ Mở app trong trình duyệt
+
+App đã được tạo và mở trong trình duyệt. Đây là Finly –
+Quản lý Tài chính Cá nhân, một web app hoàn chỉnh.
+
+TÍNH NĂNG ĐÃ XÂY DỰNG:
+
+Trang Dashboard:
+  - 4 thẻ thống kê: số dư tổng, thu nhập, chi tiêu, tiết kiệm
+  - Biểu đồ cột thu chi 6 tháng gần nhất (Chart.js)
+  - Biểu đồ tròn (doughnut) chi tiêu theo danh mục
+  - Danh sách 6 giao dịch gần nhất
+  - Bộ lọc theo tháng
+
+Trang Giao dịch:
+  - Lịch sử toàn bộ giao dịch
+  - Tìm kiếm theo tên/ghi chú
+  - Lọc theo loại (thu/chi), danh mục, tháng
+  - Sửa và xóa từng giao dịch
+  - Hiển thị tổng số giao dịch
+
+Trang Ngân sách:
+  - Form đặt ngân sách hàng tháng cho từng danh mục
+  - Progress bar theo dõi mức chi tiêu
+  - Cảnh báo vượt ngân sách (màu đỏ)
+  - Cảnh báo gần vượt (màu vàng, >80%)
+
+Trang Báo cáo:
+  - Biểu đồ đường số dư theo 6 tháng
+  - Biểu đồ ngang top danh mục chi tiêu
+  - 4 thống kê: tổng thu, tổng chi, TB thu/tháng, TB chi/tháng
+
+Modal Thêm/Sửa giao dịch:
+  - Toggle chọn loại (Thu nhập / Chi tiêu)
+  - Grid chọn danh mục bằng emoji icon
+  - Nhập số tiền, ngày, ghi chú
+  - Validation đầu vào
+
+CÔNG NGHỆ SỬ DỤNG:
+  - HTML5 / CSS3 / JavaScript (Vanilla)
+  - Tailwind CSS (CDN) - styling
+  - Chart.js 4.4.0 - biểu đồ
+  - Font Awesome 6.5 - icon
+  - Google Fonts (Inter) - typography
+  - localStorage - lưu dữ liệu
+
+ĐẶC ĐIỂM KỸ THUẬT:
+  - Single file (index.html) - mở trực tiếp, không cần server
+  - Dữ liệu mẫu tự động seed khi chạy lần đầu
+  - Responsive design
+  - Animation và transition mượt
+  - Phím tắt: Cmd/Ctrl+K (thêm nhanh), Esc (đóng modal)
+
+-----------------------------------------------------------
+[NGƯỜI DÙNG]
+-----------------------------------------------------------
+Tạo cho tôi file txt và file bài tập để tôi đẩy lên Github
+theo yêu cầu bài tập này.
+
+[Đính kèm ảnh bài tập - bảng output yêu cầu:]
+  STT 1: Files và folder code nằm trên 1 repo Github → Github repo
+  STT 2: File ghi chép lại lịch sử trò chuyện với Claude Code
+         /export → .txt
+  -   : Bất kì sản phẩm, dự án, workflow nào khác mọi người muốn!
+
+-----------------------------------------------------------
+[CLAUDE CODE]
+-----------------------------------------------------------
+Theo yêu cầu bài tập, tôi tạo 2 file:
+  1. README.md     - Tài liệu dự án cho GitHub repo
+  2. conversation.txt - File này, ghi lại lịch sử trò chuyện
+
+→ Tạo file: README.md
+→ Tạo file: conversation.txt
+
+CẤU TRÚC THƯ MỤC SẴN SÀNG ĐẨY LÊN GITHUB:
+
+  Bài tập Claude/
+  ├── index.html          ← Web app chính (Finly)
+  ├── README.md           ← Mô tả dự án
+  └── conversation.txt    ← Lịch sử trò chuyện (file này)
+
+-----------------------------------------------------------
+HƯỚNG DẪN ĐẨY LÊN GITHUB
+-----------------------------------------------------------
+
+Bước 1: Khởi tạo Git trong thư mục dự án
+  cd "/Users/thunga/Desktop/Bài tập Claude"
+  git init
+
+Bước 2: Thêm tất cả file
+  git add .
+
+Bước 3: Commit lần đầu
+  git commit -m "feat: Finly - Personal Finance Tracker web app"
+
+Bước 4: Tạo repo mới trên GitHub
+  - Truy cập https://github.com/new
+  - Đặt tên repo (ví dụ: finly-finance-tracker)
+  - Không tích "Initialize repository"
+  - Bấm "Create repository"
+
+Bước 5: Kết nối và đẩy code
+  git remote add origin https://github.com/<username>/<repo-name>.git
+  git branch -M main
+  git push -u origin main
+
+===========================================================
+  KẾT THÚC LỊCH SỬ TRÒ CHUYỆN
+===========================================================
